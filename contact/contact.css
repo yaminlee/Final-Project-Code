@@ -1,0 +1,13 @@
+.form-content h3 {
+    font-size: 22px;
+    font-family: var(--regular);
+    padding: 0 0 20px 30px;
+}
+.form-content h4 {
+    font-size: 20px;
+    font-family: var(--thin);
+    padding: 0 0 20px 40px;
+}
+.form-content a {
+    color: var(--main-color);
+}

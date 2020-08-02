@@ -1,0 +1,11 @@
+input[type="text"]#yes-see, input[type="text"]#yes-own, input[type="text"]#yes-pet, input[type="text"]#yes-when {
+    width: 33%;
+    position: relative;
+    left: 20px;
+}
+div.form-content {
+    max-width: 80%;
+    margin: auto;
+    width: 50%;
+    min-width: 70%;
+}

@@ -1,0 +1,53 @@
+@import "../general/general.css";
+
+div#footer {
+    margin-top :60px;
+    float: left;
+    width: 100%;
+}
+ul.footer {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.column {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li.headline {
+    font-family: var(--bold);
+    color: var(--main-color);
+    display: block;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 28px;
+}
+.vertical {
+    text-decoration: none;
+    font-family: var(--light);
+    color: black;
+    font-size: 18px;
+    display: block;
+    padding: 8px 0;
+}
+.vertical:hover {
+    color: var(--main-color);
+}
+footer .box {
+    float: left;
+    width: 33%;
+    padding: 10px 20px;
+    text-align: center;
+}
+footer h1.box {
+    font-family: var(--bold);
+    font-size: 20px;
+}
+
+

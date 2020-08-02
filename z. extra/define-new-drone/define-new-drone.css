@@ -1,0 +1,16 @@
+img.input-help {
+    width: 15px;
+    height: auto;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+form div.picture {
+    width: 50%;
+    float: right;
+}
+form .picture a {
+    font-family: var(--regular);
+    font-size: 12px;
+    float: right;
+}

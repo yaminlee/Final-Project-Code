@@ -1,0 +1,10 @@
+form p {
+    font-size: 18px;
+    padding: 15px 0px;
+}
+p.bold {
+    font-weight: bolder;
+}
+div.expamle {
+    border: solid 1px black;
+}

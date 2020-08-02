@@ -1,0 +1,65 @@
+@import "../general/general.css";
+
+ul.head {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.head li {
+    float: left;
+    display: block;
+    text-align: center;
+    margin-right: 70px;
+    padding: 20px 20px;
+    font-size: 28px;
+    font-family: var(--light);
+}
+.head li a {
+    text-decoration: none;
+    color: black;
+    font-family: var(--light);
+}
+li a:hover, .dropdown:hover .dropbtn {
+    color: var(--main-color);
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05);
+}
+.dropdown-content a {
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 18px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+form.search-form {
+    float: right;
+    padding: 10px 10px 0 10px;
+}
+form input[type=text].search {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../general/images/search.png');
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+    transition: width 0.4s ease-in-out;
+}
+
+form input[type=text].search:focus {
+    width: 100%;
+}

@@ -1,0 +1,14 @@
+form p {
+    font-family: var(--light);
+    font-size: 16px;
+    padding: 5px 35px 15px 35px;
+}
+span.bold {
+    font-weight: bolder;
+}
+div.form-content {
+    max-width: 80%;
+    margin: auto;
+    width: 50%;
+    min-width: 70%;
+}

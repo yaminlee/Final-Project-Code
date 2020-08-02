@@ -1,0 +1,108 @@
+div.form-content {
+    margin: auto;
+    width: 50%;
+    max-width: 100%;
+}
+main.form {
+    padding: 50px 200px;
+}
+div.form-content {
+    min-width: 80%;
+    padding: 30px 50px;
+}
+img.drone-form {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    max-height: 225px;
+}
+form h3 {
+    display: inline-block;
+    font-family: var(--thin);
+    font-size: 20px;
+    padding: 20px 0 20px 40px;
+}
+.slides-inputs {
+    margin: auto;
+    width: 50%;
+}
+.slidecontainer {
+    margin: auto;
+    padding-bottom: 40px;
+    width: 150%;
+}
+.slidecontainer input {
+    width: 100%;
+}
+.slide-div {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+.slidecontainer h4 {
+    display: inline-block;
+    font-family: var(--thin);
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+/* The slider itself */
+.slider {
+    display: inline-block;
+    -webkit-appearance: none;
+    height: 5px;
+    border-radius: 2px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+.slider:hover {
+    opacity: 1;
+}
+span.demo {
+    font-family: var(--light);
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: -50%;
+}
+label.form-input {
+    margin-left: 5%;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+#countdown {
+    text-align: center;
+}
+textarea {
+    font-family: var(--light);
+    font-size: 16px;
+    display: block;
+    border: none;
+    width: 60%;
+    background-attachment: local;
+    background-image:
+            linear-gradient(to right, white 10px, transparent 10px),
+            linear-gradient(to left, white 10px, transparent 10px),
+            repeating-linear-gradient(white, white 30px, rgba(0, 0, 0, 0.1) 30px, rgba(0, 0, 0, 0.1) 31px, white 31px);
+    line-height: 31px;
+    padding: 8px 10px;
+}

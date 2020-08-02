@@ -1,0 +1,10 @@
+.checkbox {
+    display: inline;
+ }
+div.form-content {
+    max-width: 100%;
+    margin: auto;
+    width: 50%;
+    min-width: 70%;
+    padding: 30px;
+}
