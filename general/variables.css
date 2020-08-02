@@ -1,0 +1,18 @@
+:root {
+    --main-color: #5461D6;
+    --main-opacity: rgba(84, 97, 214, 0.8);
+    --delete-color: #f44336;
+    --delete-opacity: rgba(244,67,54, 0.8);
+    --regular: ‘regular’, 'Tahoma', serif;
+    --regular-italic: ‘regular-italic’, 'Tahoma', serif;
+    --medium: ‘medium’, 'Tahoma', serif;
+    --medium-italic: ‘medium-italic’, 'Tahoma', serif;
+    --bold: ‘bold’, 'Tahoma', serif;
+    --bold-italic: ‘bold-italic’, 'Tahoma', serif;
+    --black: ‘black’, 'Tahoma', serif;
+    --black-italic: ‘black-italic’, 'Tahoma', serif;
+    --light: ‘light’, 'Tahoma', serif;
+    --light-italic: ‘light-italic’, 'Tahoma', serif;
+    --thin: ‘thin’, 'Tahoma', serif;
+}
+
